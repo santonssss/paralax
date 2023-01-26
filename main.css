@@ -85,7 +85,7 @@ body{
     transition: var(--transition);
 }
 .layers-title{
-    font-size: calc(var(--index)*2);
+    font-size: calc(var(--index)*3);
     letter-spacing: calc(var(--index)/2.25);
     color: #EBE3BB;
     font-weight: 900;
@@ -97,6 +97,7 @@ body{
     margin-top:  calc(var(--index)*-2.75);
     color: #ECE5C1;
     font-weight: 900;
+    text-shadow: 0 0 15px #8D6D29;
 }
 .main-article{
     min-height: 100vh;
@@ -112,16 +113,18 @@ body{
     
 }
 .main-article-header{
-    font-size: calc(var(--index)*1.8);
+    font-size: calc(var(--index)*2.45);
     letter-spacing: calc(var(--index)/7.5);
     text-transform: uppercase;
     transform: translate3d(0,calc(var(--scrollTop))/2,0);
     transition: var(--transition);
+    text-shadow: 0 0 15px #8D6D29;
 }
 .main-article-paragraph{
     max-width: calc(var(--index)*30);
-    font-size: calc(var(--index)*.9596);
+    font-size: calc(var(--index)*1.3);
     margin-top: calc(var(--index)/1.25);
+    text-shadow: 0 0 15px #8D6D29;
 }
 
 .copy{
